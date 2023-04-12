@@ -1,4 +1,4 @@
-# PBS TF MOD_TITLE
+# PBS TF sns topic module
 
 ## Installation
 
@@ -7,7 +7,7 @@
 Use this URL for the source of the module. See the usage examples below for more details.
 
 ```hcl
-github.com/pbs/terraform-aws-MOD_NAME?ref=x.y.z
+github.com/pbs/terraform-aws-sns-topic-module?ref=x.y.z
 ```
 
 ### Alternative Installation Methods
@@ -24,8 +24,8 @@ Fill this out before completing usage of this template.
 Integrate this module like so:
 
 ```hcl
-module "MOD_SHORTNAME" {
-  source = "github.com/pbs/terraform-aws-MOD_NAME?ref=x.y.z"
+module "sns-topic" {
+  source = "github.com/pbs/terraform-aws-sns-topic-module?ref=x.y.z"
 
   <!-- TODO -->
   Show some examples of valid values for required parameters.

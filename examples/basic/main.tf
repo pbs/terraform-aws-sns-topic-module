@@ -1,4 +1,4 @@
-module "MOD_SHORTNAME" {
+module "topic" {
   source = "../.."
 
   organization = var.organization
