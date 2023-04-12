@@ -16,20 +16,13 @@ More information can be found on these install methods and more in [the document
 
 ## Usage
 
-<!-- TODO -->
-This should be a basic description of what this module does.
-Fill this out before completing usage of this template.
-<!-- TODO -->
+Provisions an SNS Topic.
 
 Integrate this module like so:
 
 ```hcl
-module "sns-topic" {
+module "topic" {
   source = "github.com/pbs/terraform-aws-sns-topic-module?ref=x.y.z"
-
-  <!-- TODO -->
-  Show some examples of valid values for required parameters.
-  <!-- TODO -->
 
   # Tagging Parameters
   organization = var.organization
