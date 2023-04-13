@@ -1,4 +1,9 @@
-output "hello_world" {
-  description = "Hello World"
-  value       = module.MOD_SHORTNAME.hello_world
+output "name" {
+  description = "Name of the SNS Topic"
+  value       = module.topic.name
+}
+
+output "arn" {
+  description = "ARN of the SNS Topic"
+  value       = module.topic.arn
 }

@@ -1,9 +1,9 @@
-output "hello_world" {
-  description = "Hello world output"
-  value       = "Hello, World!"
+output "name" {
+  description = "Name of the SNS Topic"
+  value       = local.name
 }
 
-output "tags" {
-  description = "The tags"
-  value       = local.tags
+output "arn" {
+  description = "ARN of the SNS Topic"
+  value       = aws_sns_topic.topic.arn
 }
